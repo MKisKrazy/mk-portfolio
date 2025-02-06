@@ -23,7 +23,7 @@ export const About = () => {
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-6 text-center">
             A Freelancer and a passionate developer crafting scalable web applications and pioneering innovative solutions. Fueled by curiosity, I blend creativity with technology to build seamless, high-performance digital experiences.
             </p>
 
