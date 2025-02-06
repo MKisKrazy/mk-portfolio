@@ -7,6 +7,7 @@ html,body{
     background:#0a0a0a;
     color: #f4f3f6;
     font-family: 'Space Grotesk', sans-serif;
+    overflow-x: hidden;
 }
 
 @layer utilities {

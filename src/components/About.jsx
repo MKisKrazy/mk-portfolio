@@ -83,14 +83,14 @@ export const About = () => {
              
                     Python Intern at B2E Technology (Aug 2024)
                   </h4>
-                  <p>
+                  
                   <ul className="list-disc list-inside">
                       <li>Did data analysis 
                     </li>
                     <li>Created a python ML prediction script specific for their data</li>
                     <li>Developed a Django Webapp to showcase the results visually</li>
                     </ul>
-                  </p>
+                  
                 </div>
 
                 <div>

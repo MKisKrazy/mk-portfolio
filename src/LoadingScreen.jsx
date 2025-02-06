@@ -30,7 +30,7 @@ export const LoadingScreen = (props) => {
 
   return (
     <div className="fixed inset-0 bg-black z-50 text-gray-100 flex flex-col justify-center items-center ">
-        <div className="text-3xl mb-4 ml-10 font-mono font-bold">
+        <div className="text-xl md:text-4xl mb-4 ml-10 font-mono font-bold">
             {text} <span className="animate-blink ml-1"> | </span>
         </div>
 
