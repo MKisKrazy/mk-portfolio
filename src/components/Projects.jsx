@@ -48,7 +48,7 @@ export const Projects = () => {
                 </span>
                 })}
               </div>
-              <div className="flex  items-center gap-25">
+              <div className="flex  items-center gap-16 md:gap-25">
                 <a href="https://nike-landing-page-ten-woad.vercel.app/" className=" text-violet-400 hover:text-violet-300 hover:bg-violet-600/30 transition-all my-5 px-4 py-2 border border-violet-400/30 rounded-full"><div className="flex justify-items-center gap-[4px]"><span>Live</span> <span>Demo</span> <span>➡</span></div></a>
                 <a href="https://github.com/MKisKrazy/Nike_Landing_Page" className=" text-violet-400 flex items-center justify-between gap-2 px-4  border border-violet-400/30 rounded-full hover:scale-105" >
                 Github<img src="/icons8-github-48.png" className="w-10 h-10 mr-6 md:m-0 "></img>
@@ -71,7 +71,7 @@ export const Projects = () => {
                 </span>
                 })}
               </div>
-              <div className="flex  items-center gap-25">
+              <div className="flex  items-center gap-16 md:gap-25">
                 <a href="https://mkiskrazy.github.io/VS-code-Frontend-Clone/" className=" text-violet-400 hover:text-violet-300 hover:bg-violet-600/30 transition-all my-5 px-4 py-2 border border-violet-400/30 rounded-full"><div className="flex justify-items-center gap-[4px]"><span>Live</span> <span>Demo</span> <span>➡</span></div></a>
                 <a href="https://github.com/MKisKrazy/VS-code-Frontend-Clone" className=" text-violet-400 flex items-center justify-between gap-2 px-4  border border-violet-400/30 rounded-full hover:scale-105" >
                 Github<img src="/icons8-github-48.png" className="w-10 h-10 mr-6 md:m-0 "></img>
@@ -94,7 +94,7 @@ export const Projects = () => {
                 </span>
                 })}
               </div>
-              <div className="flex  items-center gap-25">
+              <div className="flex  items-center gap-16 md:gap-25">
                 <a href="https://mkiskrazy.github.io/Rock-Paper-Scissors/" className=" text-violet-400 hover:text-violet-300 hover:bg-violet-600/30 transition-all my-5 px-4 py-2 border border-violet-400/30 rounded-full"><div className="flex justify-items-center gap-[4px]"><span>Live</span> <span>Demo</span> <span>➡</span></div></a>
                 <a href="https://github.com/MKisKrazy/Rock-Paper-Scissors" className=" text-violet-400 flex items-center justify-between gap-2 px-4  border border-violet-400/30 rounded-full hover:scale-105" >
                 Github<img src="/icons8-github-48.png" className="w-10 h-10 mr-6 md:m-0"></img>
