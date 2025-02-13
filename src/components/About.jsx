@@ -3,12 +3,13 @@ export const About = () => {
   const frontendSkills = [
     "HTML","CSS",
     "React",
+    "Next",
     "Javascript",
     "TypeScript",
     "TailwindCSS",
   ];
 
-  const backendSkills = ["Node.js", "Git", "Express.js", "MongoDB", "MySQL","Prisma","Github"];
+  const backendSkills = ["Node.js", "Git", "Express.js", "MongoDB", "MySQL","Prisma","Github","Docker","Vercel"];
 
   return (
     <section
