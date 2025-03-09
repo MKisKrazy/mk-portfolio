@@ -11,6 +11,29 @@ export const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-violet-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <h3 className="text-xl font-bold mb-2">Creator Hood</h3>
+              <p className="text-gray-400 mb-4"> Creator hood is an AI Agent SaaS which helps creators analyse a trending video to help create a script, title and thumbnail for their new video on the same topic</p>
+              <div className="flex flex-wrap mb-4 gap-2">
+                {["Next","Tailwind","Clerk","Convex","Vercel AI SDK","Stripe"].map((tech,techkey)=>{
+                  return <span
+                  key={techkey}
+                  className="bg-violet-500/10 text-violet-500 py-1 px-3 rounded-full text-sm hover:bg-violet-500/20 
+                                hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all
+                "
+                >
+                  {tech}
+                </span>
+                })}
+              </div>
+              <div className="flex  items-center gap-16 md:gap-25">
+                <a href="https://creator-hood.vercel.app" className=" text-violet-400 hover:text-violet-300 hover:bg-violet-600/30 transition-all my-5 px-4 py-2 border border-violet-400/30 rounded-full"><div className="flex justify-items-center gap-[4px]"><span>Live</span> <span>Demo</span> <span>➡</span></div></a>
+                <a href="https://github.com/MKisKrazy/creator-hood" className=" text-violet-400  flex items-center justify-between gap-2 px-4  border border-violet-400/30 rounded-full hover:scale-105" >
+                Github<img src="/icons8-github-48.png" className="w-10 h-10 mr-6 md:m-0"></img>
+                </a>
+              </div>
+            </div>
+
+        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-violet-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">Moodly</h3>
               <p className="text-gray-400 mb-4">Moodly is a mood tracker/ monitoring web applicaton that allows you to keep track on your mood and understand your mental health and status</p>
               <div className="flex flex-wrap mb-4 gap-2">
