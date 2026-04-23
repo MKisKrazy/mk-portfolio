@@ -81,32 +81,36 @@ export const About = () => {
               <div className="space-y-5 text-gray-300">
                 <div>
                   <h4 className="font-semibold text-violet-300">
-             
-                    Python Intern at B2E Technology (Aug 2024)
+                    Full Stack Developer at Trivent Systems Private Limited (Current)
                   </h4>
-                  
                   <ul className="list-disc list-inside">
-                      <li>Did data analysis 
+                    <li>Created a full-stack Next.js application with end-to-end delivery.</li>
+                    <li>Implemented CI/CD pipelines for automated deployment, and release.
                     </li>
-                    <li>Created a python ML prediction script specific for their data</li>
-                    <li>Developed a Django Webapp to showcase the results visually</li>
-                    </ul>
-                  
+                    <li>Implememnted Realtime Chat ,Feature rich text editors and more into the website</li>
+                  </ul>
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-violet-300">       
-                     Intern at zetpeak (Jul 2023)
+                  <h4 className="font-semibold text-violet-300">
+                    Python Intern at B2E Technology (Aug 2024)
                   </h4>
-                  <p>
-                    <ul className="list-disc list-inside">
-                      <li>Redesigned a website
-                    </li>
+                  <ul className="list-disc list-inside">
+                    <li>Did data analysis</li>
+                    <li>Created a python ML prediction script specific for their data</li>
+                    <li>Developed a Django Webapp to showcase the results visually</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h4 className="font-semibold text-violet-300">
+                    Intern at zetpeak (Jul 2023)
+                  </h4>
+                  <ul className="list-disc list-inside">
+                    <li>Redesigned a website</li>
                     <li>Improved UI & UX of that website</li>
                     <li>Fixed Visual Bugs</li>
-                    </ul>
-                    
-                  </p>
+                  </ul>
                 </div>
               </div>
             </div>
